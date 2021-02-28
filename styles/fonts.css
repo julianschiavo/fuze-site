@@ -1,0 +1,151 @@
+.monospacedFont {
+    font-family: "SF Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+/* Font Sizes */
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.fontSize, .fontSize.base {
+    font-size: 18px
+}
+
+.fontSize.footer {
+    font-size: 16px
+}
+
+.fontSize.metadata {
+    font-size: 18px
+}
+
+.fontSize.legal {
+    font-size: 15px
+}
+
+.fontSize.siteDescription {
+    font-size: 20px
+}
+
+.fontSize.large {
+    font-size: 22px
+}
+
+.fontSize.postExcerptTitle, .fontSize.secondarySectionTitle {
+    font-size: 30px
+}
+
+.fontSize.sectionTitle {
+    font-size: 34px
+}
+
+.fontSize.siteTitle {
+    font-size: 38px
+}
+
+.fontSize.pageTitle {
+    font-size: 42px
+}
+
+@media(max-width: 1024px) {
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+    
+    .fontSize.metadata {
+        font-size: 16px
+    }
+    
+    .fontSize.large {
+        font-size: 18px
+    }
+    
+    .fontSize.postExcerptTitle, .fontSize.secondarySectionTitle {
+        font-size: 28px
+    }
+    
+    .fontSize.sectionTitle {
+        font-size: 32px
+    }
+    
+    .fontSize.postTitle {
+        font-size: 34px
+    }
+}
+
+@media(max-width: 655px) {
+    html, .fontSize, .fontSize.base {
+        font-size: 15px
+    }
+    
+    .fontSize.siteDescription {
+        font-size: 18px
+    }
+    
+    .fontSize.siteTitle {
+        font-size: 32px
+    }
+    
+    .fontSize.postTitle {
+        font-size: 28px
+    }
+}
+
+/* Font Weights */
+
+.fontWeight {
+    font-weight: 400
+}
+
+.fontWeight.ultraLight {
+    font-weight: 100
+}
+
+.fontWeight.thin {
+    font-weight: 200
+}
+
+.fontWeight.light {
+    font-weight: 300
+}
+
+.fontWeight.regular {
+    font-weight: 400 /* normal */
+}
+
+.fontWeight.medium {
+    font-weight: 500
+}
+
+.fontWeight.semibold {
+    font-weight: 600
+}
+
+.fontWeight.bold {
+    font-weight: 700 /* bold */
+}
+
+.fontWeight.heavy {
+    font-weight: 800
+}
+
+.fontWeight.black {
+    font-weight: 900
+}
+
