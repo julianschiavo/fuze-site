@@ -34,7 +34,7 @@
                 <h4 class="fontSize large fontWeight regular" id="author" style="margin-top: 10px; margin-bottom: 60px;">
                     live in the moment. watch life happen.
                 </h4>
-                <a class="largeButton" href="/">
+                <a class="largeButton" id="deeplink" href="/">
                     Open in Fuze
                 </a>
                 <p class="monospacedFont" style="margin-top: 20px; margin-bottom: 20px;">OR</p>
@@ -61,6 +61,9 @@
     </body>
     <script>
         let url = window.location.href
+        let deepLink = url.replace("https", "fuze")
+        document.getElementById('deeplink').href = deepLink
+
         let canvas = document.getElementById('qrcode')
         // let options = {
         //     margin: 3,
