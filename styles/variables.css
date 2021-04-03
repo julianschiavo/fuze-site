@@ -42,8 +42,8 @@
 
 @media (prefers-color-scheme: dark) {*/
     :root {
-        --link-color: #328cd3;
-        --link-visited-color: #2c7ab7;
+        --link-color: #BE4FFF;
+        --link-visited-color: #722F99;
         --primary-color: #dddddd;
         --secondary-color: #7d7d7d;
         --footer-text-color: #A7A7A7;

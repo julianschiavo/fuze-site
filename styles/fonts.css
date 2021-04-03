@@ -59,6 +59,10 @@ h3 {
     font-size: 42px
 }
 
+.fontSize.largeTitle {
+    font-size: 54px
+}
+
 @media(max-width: 1024px) {
     h1 {
         font-size: 28px;
