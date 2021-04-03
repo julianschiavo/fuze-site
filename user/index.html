@@ -63,7 +63,7 @@
     <script>
         let url = window.location.href
         let components = url.split('/');
-        let username = "@" + (components.pop() || components.pop())
+        let username = (components.pop() || components.pop())
         document.title = username + " on fuze"
         document.getElementById('user').innerText = username + " is on fuze"
 
