@@ -28,8 +28,8 @@
     <body>
         <div class="wrapper content centering">
             <div class="page-content">
-                <h1 class="fontSize largeTitle accent">
-                    watch it on fuze
+                <h1 class="fontSize largeTitle accent" id="user">
+                    fuze
                 </h1>
                 <h4 class="fontSize secondarySectionTitle fontWeight regular" id="author" style="margin-top: 10px; margin-bottom: 60px;">
                     Coming 4/20
@@ -62,9 +62,13 @@
     </body>
     <script>
         let url = window.location.href
+        let components = url.split('/');
+        let username = "@" + (components.pop() || components.pop())
+        document.title = username + " on fuze"
+        document.getElementById('user').innerText = username + " is on fuze"
+
         let deepLink = url.replace("https", "fuze")
         document.getElementById('deeplink').href = deepLink
-
         let canvas = document.getElementById('qrcode')
         QrCreator.render({
             text: url,
