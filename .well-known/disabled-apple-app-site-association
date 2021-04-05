@@ -1,0 +1,27 @@
+{
+    "appclips": {
+        "apps": ["74N8K5J2N7.com.julianschiavo.skyline", "74N8K5J2N7.com.julianschiavo.skyline.Clip"]
+    },
+    "applinks": {
+        "details": [
+            {
+                "appID": "74N8K5J2N7.com.julianschiavo.skyline",
+                "components": [
+                    {
+                        "/": "/user",
+                        "?": "p"
+                    },
+                    {
+                        "/": "/video",
+                        "?": "p"
+                    },
+                    {
+                        "/": "/sound",
+                        "?": "p"
+                    }
+                ],
+                "defaults": { "caseSensitive": false }
+            }
+        ]
+    }
+}
