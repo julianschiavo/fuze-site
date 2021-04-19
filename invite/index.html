@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: black">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="og:site_name" content="fuze"/>
+        <link rel="canonical" href="https://fuze.video"/>
+        <meta name="twitter:url" content="https://fuze.video"/>
+        <meta name="og:url" content="https://fuze.video"/>
+        <title>fuze: live in the moment</title>
+        <meta name="twitter:title" content="fuze: live in the moment"/>
+        <meta name="og:title" content="fuze: live in the moment"/>
+        <meta name="description" content="live in the moment. watch life happen. get fuze."/>
+        <meta name="twitter:description" content="live in the moment. watch life happen. get fuze."/>
+        <meta name="og:description" content="live in the moment. watch life happen. get fuze."/>
+        <meta name="twitter:card" content="summary"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" type="text/css"/>
+        <link rel="stylesheet" href="/styles/variables.css" type="text/css"/>
+        <link rel="stylesheet" href="/styles/base.css" type="text/css"/>
+        <link rel="stylesheet" href="/styles/fonts.css" type="text/css"/>
+        <link rel="stylesheet" href="/styles/footer.css" type="text/css"/>
+        <link rel="stylesheet" href="/styles/header.css" type="text/css"/>
+        <link rel="stylesheet" href="/styles/pages.css" type="text/css"/>
+        <script src="https://cdn.jsdelivr.net/npm/qr-creator@1.0.0/dist/qr-creator.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" href="/images/favicon.png" type="image/png"/>
+        <meta name="apple-itunes-app" content="app-id=1523477959, app-clip-bundle-id=com.julianschiavo.skyline.Clip">
+    </head>
+    <body>
+        <div class="wrapper content centering">
+            <div class="page-content">
+                <h1 class="fontSize pageTitle accent">
+                    join fuze
+                </h1>
+                <h4 class="fontSize large fontWeight semibold" id="author" style="margin-top: 10px; margin-bottom: 60px;">
+                    Coming 4/20
+                </h4>
+                <a href="https://apps.apple.com/app/id1523477959">
+                    <img src="/images/AppStoreBadge.svg" style="width: 200px;">
+                </a>
+                <div>
+                    <canvas id="qrcode" style="margin-top: 100px"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <footer style="border-top: none; background-color: initial">
+            <div class="wrapper fontSize footer" style="padding-top: 10px; padding-bottom: 5px; float: right; width: initial; max-width: none; padding-right: 20px; text-align: right">
+                <p>
+                    <a href="/guidelines">Guidelines</a>
+                    <span style="margin-left:20px;"> </span>
+                    <a href="/privacy">Privacy</a>
+                    <span style="margin-left:20px;"> </span>
+                    <a href="/terms">Terms</a>
+                    <span style="margin-left:20px;"> </span>
+                    <a href="/copyright">Copyright</a>
+                </p>
+                <p>© 2021 Julian Schiavo & Fuze. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+    <script>
+        let canvas = document.getElementById('qrcode')
+        QrCreator.render({
+            text: "https://apps.apple.com/app/id1523477959",
+            radius: 0.5,
+            fill: '#BE4FFF',
+            background: null,
+            size: 160
+        }, canvas);
+    </script>
+</html>
